@@ -26,9 +26,9 @@ Performance is evaluated using the Mean Squared Error (MSE) between the predicte
 
 The model implemented is inpsired by [U-Net](https://arxiv.org/abs/1505.04597) architecture. It uses 3 encoder/decoder blocks connected by skip-connections. Each blocks contains 3 convolutions and batch normalizations activated by ReLU. There are 64 initial filters, they are doubled after each encoder block and halved after each decoder block.
 
-There are 3,033,346 (11.57 MB) parameters in total.
+There are 3,033,346 (11.57MB) parameters in total.
 
-Training lasted 69 epochs with 1687 steps per epoch and batch size equal to 32. It took ~1h 20m on Google Colab T4 GPU free-tier.
+Training took 69 epochs with 1687 steps per epoch and batch size equal to 32. It took ~1h 20m on Google Colab T4 GPU free-tier.
 
 <div align=center>
 
